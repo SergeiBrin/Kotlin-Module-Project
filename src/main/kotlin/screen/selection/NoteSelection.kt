@@ -67,7 +67,7 @@ private fun viewNoteContent(note: Note) {
         println("Выбери пункт:")
         printMenu(menus[3])
         val command = inputNumber(0)
-        if (command == 0) return else "Здесь можно только назад :("
+        if (command == 0) return else println("Здесь можно только назад :(")
     }
 }
 
